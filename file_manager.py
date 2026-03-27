@@ -7,10 +7,10 @@ def criar_mapa_extensoes(locais):
             mapa[ext.lower()] = pasta
     return mapa
 
-def organizador_de_arquivos(caminho: Path, locais: dict):
+def organizador_de_arquivos(caminho: pathlib.Path, locais: dict):
     mapa_extensoes = criar_mapa_extensoes(locais)
 
-    for arquivo in caminho.intedir():
+    for arquivo in caminho.interdir():
         if arquivo.is_file():
             extensao = arquivo.suffix.lower()
 
