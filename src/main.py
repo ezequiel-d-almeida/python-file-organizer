@@ -1,6 +1,6 @@
 from ui import selecionar_pasta
 from file_manager import organizador_de_arquivos
-from rules import locais
+from src.rules import locais
 
 def main():
     caminho = selecionar_pasta()
