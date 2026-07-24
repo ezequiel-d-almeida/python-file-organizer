@@ -1,0 +1,25 @@
+[project]
+name = "file-organizer"
+version = "1.0.0"
+description = "Aplicação desktop para organização automática de arquivos utilizando Python."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Ezequiel Damasceno de Almeida" }
+]
+
+keywords = [
+    "python",
+    "automacao",
+    "organizacao-de-arquivos",
+    "desktop",
+    "tkinter"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
